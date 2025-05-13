@@ -36,7 +36,7 @@
 <body>
     <div class="phase" id="phase">Phase: Ban Phase</div>
     <div class="direction" id="direction">
-        <img id="arrow" src="Assets/Hero/Adjustment.gif" alt="Arrow">
+        <img id="arrow" src="Assets/Others/Adjustment.gif" alt="Arrow">
     </div>
     <div class="timer" id="timer">60</div>
     <button id="nextPhase">Next Phase</button>
@@ -44,23 +44,23 @@
 
     <script>
         const phases = [
-            { type: "Blue Ban Phase", direction: "Assets/Hero/Left.gif" },
-            { type: "Red Ban Phase", direction: "Assets/Hero/Right.gif" },
-            { type: "Blue Ban Phase", direction: "Assets/Hero/Left.gif" },
-            { type: "Red Ban Phase", direction: "Assets/Hero/Right.gif" },
-            { type: "Blue Ban Phase", direction: "Assets/Hero/Left.gif" },
-            { type: "Red Ban Phase", direction: "Assets/Hero/Right.gif" },
-            { type: "Blue Pick Phase", direction: "Assets/Hero/Left.gif" },
-            { type: "Red Pick Phase", direction: "Assets/Hero/Right.gif" },
-            { type: "Blue Pick Phase", direction: "Assets/Hero/Left.gif" },
-            { type: "Red Pick Phase", direction: "Assets/Hero/Right.gif" },
-            { type: "Red Ban Phase", direction: "Assets/Hero/Right.gif" },
-            { type: "Blue Ban Phase", direction: "Assets/Hero/Left.gif" },
-            { type: "Red Ban Phase", direction: "Assets/Hero/Right.gif" },
-            { type: "Blue Ban Phase", direction: "Assets/Hero/Left.gif" },
-            { type: "Red Pick Phase", direction: "Assets/Hero/Right.gif" },
-            { type: "Blue Pick Phase", direction: "Assets/Hero/Left.gif" },
-            { type: "Red Pick Phase", direction: "Assets/Hero/Right.gif" },
+            { type: "Blue Ban Phase", direction: "Assets/Others/Left.gif" },
+            { type: "Red Ban Phase", direction: "Assets/Others/Right.gif" },
+            { type: "Blue Ban Phase", direction: "Assets/Others/Left.gif" },
+            { type: "Red Ban Phase", direction: "Assets/Others/Right.gif" },
+            { type: "Blue Ban Phase", direction: "Assets/Others/Left.gif" },
+            { type: "Red Ban Phase", direction: "Assets/Others/Right.gif" },
+            { type: "Blue Pick Phase", direction: "Assets/Others/Left.gif" },
+            { type: "Red Pick Phase", direction: "Assets/Others/Right.gif" },
+            { type: "Blue Pick Phase", direction: "Assets/Others/Left.gif" },
+            { type: "Red Pick Phase", direction: "Assets/Others/Right.gif" },
+            { type: "Red Ban Phase", direction: "Assets/Others/Right.gif" },
+            { type: "Blue Ban Phase", direction: "Assets/Others/Left.gif" },
+            { type: "Red Ban Phase", direction: "Assets/Others/Right.gif" },
+            { type: "Blue Ban Phase", direction: "Assets/Others/Left.gif" },
+            { type: "Red Pick Phase", direction: "Assets/Others/Right.gif" },
+            { type: "Blue Pick Phase", direction: "Assets/Others/Left.gif" },
+            { type: "Red Pick Phase", direction: "Assets/Others/Right.gif" },
         ];
 
         let currentPhaseIndex = 0; // Track the current phase
@@ -84,7 +84,7 @@
             } else {
                 // When all phases are completed
                 phaseElement.textContent = "Phase: Adjustment";
-                arrowElement.src = "Assets/Hero/Adjustment.gif"; // Remove arrow image
+                arrowElement.src = "Assets/Others/Adjustment.gif"; // Remove arrow image
                 timerElement.textContent = "Adjustment";
                 nextPhaseButton.disabled = true; // Disable the button
             }
