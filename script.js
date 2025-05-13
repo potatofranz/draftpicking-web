@@ -1,6 +1,6 @@
 const heroes = [
     { name: 'Aamon', img: '../Assets/HeroPick/Aamon.png' },
-    { name: 'Akai', img: '/Assets/HeroPick/akai.png' },
+    { name: 'Akai', img: 'Assets/HeroPick/Aamon.png' },
     { name: 'Aldous', img: '/Assets/HeroPick/aldous.png' },
     { name: 'Alice', img: '/Assets/HeroPick/alice.png' },
     { name: 'Alpha', img: '/Assets/HeroPick/alpha.png' },
