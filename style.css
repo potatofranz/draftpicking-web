@@ -171,7 +171,7 @@
 }
 .timer {
     font-size: 50px;
-    color: white;
+    color: rgb(255, 0, 0);
     display: flex;
     justify-content: center; 
     align-items: center;
